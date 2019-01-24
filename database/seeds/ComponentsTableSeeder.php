@@ -11,9 +11,9 @@ class ComponentsTableSeeder extends Seeder
      */
     public function run()
     {
-        //Girder
-        DB::table('components')->insert([
-            'name' => 'Girder',
+        $newComp = new App\Components();
+        $newComp->name = 'Girder';
+        $newComp->ingots_needed = json_encode([
             'cobalt' => 0,
             'gold' => 0,
             'iron' => 7,
@@ -26,8 +26,9 @@ class ComponentsTableSeeder extends Seeder
             'uranium' => 0,
             'naquadah' => 0,
             'neitronium' => 0,
-            'trinium' => 0,
-            'process_fee' => 0
+            'trinium' => 0
         ]);
+        $newComp->physical_credits_needed = 0;
+        $newComp->save();
     }
 }

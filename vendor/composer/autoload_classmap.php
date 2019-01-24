@@ -11,6 +11,7 @@ return array(
     'CreateFactionsTable' => $baseDir . '/database/migrations/2019_01_17_000141_create_factions_table.php',
     'CreateGroupsTable' => $baseDir . '/database/migrations/2019_01_17_000502_create_groups_table.php',
     'CreateIngotsTable' => $baseDir . '/database/migrations/2019_01_17_000221_create_ingots_table.php',
+    'CreateMagicTable' => $baseDir . '/database/migrations/2019_01_23_234430_create_magic_table.php',
     'CreateOresTable' => $baseDir . '/database/migrations/2019_01_17_000213_create_ores_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreateStationsTable' => $baseDir . '/database/migrations/2019_01_17_005017_create_stations_table.php',

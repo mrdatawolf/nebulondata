@@ -363,6 +363,7 @@ class ComposerStaticInit266f19a93e309f752342f26186f4b832
         'CreateFactionsTable' => __DIR__ . '/../..' . '/database/migrations/2019_01_17_000141_create_factions_table.php',
         'CreateGroupsTable' => __DIR__ . '/../..' . '/database/migrations/2019_01_17_000502_create_groups_table.php',
         'CreateIngotsTable' => __DIR__ . '/../..' . '/database/migrations/2019_01_17_000221_create_ingots_table.php',
+        'CreateMagicTable' => __DIR__ . '/../..' . '/database/migrations/2019_01_23_234430_create_magic_table.php',
         'CreateOresTable' => __DIR__ . '/../..' . '/database/migrations/2019_01_17_000213_create_ores_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateStationsTable' => __DIR__ . '/../..' . '/database/migrations/2019_01_17_005017_create_stations_table.php',

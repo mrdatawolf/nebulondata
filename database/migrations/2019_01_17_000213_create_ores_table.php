@@ -16,7 +16,8 @@ class CreateOresTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->decimal('gather_cost');
-            $table->decimal('kwh_cost');
+            $table->decimal('kwh_cost_to_process');
+            $table->decimal('base_ore_process_speed');
             $table->timestamps();
         });
     }

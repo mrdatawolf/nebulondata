@@ -15,6 +15,9 @@ class CreateFactionsTable extends Migration
         Schema::create('factions', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->string('tag');
+            $table->integer('founder_id');
+            $table->integer('owner_id');
             $table->timestamps();
         });
     }

@@ -15,8 +15,7 @@ class CreateIngotsTable extends Migration
         Schema::create('ingots', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->decimal('ore_per_ingot');
-            $table->decimal('ingots_per_second');
+            $table->decimal('base_ore_required_per_ingot');
             $table->timestamps();
         });
     }

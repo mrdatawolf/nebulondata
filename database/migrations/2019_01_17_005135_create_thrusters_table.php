@@ -14,6 +14,11 @@ class CreateThrustersTable extends Migration
     {
         Schema::create('thrusters', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('title');
+            $table->string('type');
+            $table->string('newtons_generated');
+            $table->string('watts_used');
+            $table->binary('grid_size');
             $table->timestamps();
         });
     }
